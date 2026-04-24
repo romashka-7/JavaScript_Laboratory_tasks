@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабы по JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="main">
+    <h1 style="text-align: center">Лабораторные работы по JS</h1>
+
+    <!-- task 1 -->
+    <div class="task">
+      <p>Задание 1</p>
+      <div class="content">
+        <p class="clockheader">
+          ГГГГ ДД ММ ДН, ЧЧ-ММ-СС(am/pm). Расположение снизу от центра
+        </p>
+        <p class="clock"></p>
+      </div>
+    </div>
+
+    <!-- task 2 -->
+    <div class="task">
+      <p>Задание 2</p>
+      <div class="content">
+        <div class="months">
+          <button class="left">
+            <img src="/images/leftArrow.png" alt="leftButton" />
+          </button>
+          <div class="month">
+            <h3 class="themonth" style="margin: 0"></h3>
+            <p class="year" style="margin: 0"></p>
+          </div>
+          <button class="right">
+            <img src="/images/rightArrow.png" alt="rightButton" />
+          </button>
+        </div>
+        <div class="dayOfWeek">
+          <div class="dayName">Пн</div>
+          <div class="dayName">Вт</div>
+          <div class="dayName">Ср</div>
+          <div class="dayName">Чт</div>
+          <div class="dayName">Пт</div>
+          <div class="dayName">Сб</div>
+          <div class="dayName">Вс</div>
+        </div>
+        <div class="numberOfDay"></div>
+      </div>
+    </div>
+
+    <!-- task 3 -->
+    <div class="task">
+      <p>Задание 3</p>
+      <div class="content">
+        <p>Вывести количество div в DOM-дереве</p>
+        <div class="counterOfDiv"></div>
+        <div>
+          <p>
+            Вывести количество таблиц в DOM-дереве. Так как таковых нет, добавим
+            одну:
+          </p>
+          <!-- Таблица -->
+          <caption>
+            Топ блокировок от Роскомнадзора
+          </caption>
+          <table>
+            <tr>
+              <th>Название приложения</th>
+              <th>Причина блокировки по версии Роскомнадзора</th>
+              <th>Настощая причина</th>
+            </tr>
+            <tr>
+              <td>Telegram</td>
+              <td>Систематическое неисполнение российского законодательства</td>
+              <td>Вышел MAX</td>
+            </tr>
+            <tr>
+              <td>Youtube</td>
+              <td>Систематическое неисполнение российского законодательства</td>
+              <td>Пиндосы сосите</td>
+            </tr>
+            <tr>
+              <td>Instagram</td>
+              <td>
+                Распространение призывов к насилию в отношении российских
+                граждан
+              </td>
+              <td>Заебали</td>
+            </tr>
+          </table>
+          <div class="counterOfDOM"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- task 4 -->
+    <div class="task">
+      <p>Задание 4</p>
+      <div class="content">
+        <p class="textOfTask4">
+          Каждые 200мс блок увеличивается на 50% и вращается на 90deg
+        </p>
+        <p class="textOfTask4">Нажмите на блок для его деформации</p>
+        <div class="blocks">
+          <div id="block1">1</div>
+          <div id="block2">2</div>
+          <div id="block3">3</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- task 5 -->
+    <div class="task">
+      <p>Задание 5</p>
+      <div class="content">
+        <p style="padding: 0 20px 0 20px">
+          Создание и удаление блоков внутри div
+        </p>
+        <div class="someObject"></div>
+        <div class="chooseFunc">
+          <p>Выберите свойства нового блока:</p>
+          <p>
+            <input
+              class="elemRadio"
+              id="blockText"
+              type="radio"
+              value="text"
+              name="group"
+            />Блок с текстом
+          </p>
+          <p>
+            <input
+              class="elemRadio"
+              id="randomImg"
+              type="radio"
+              value="img"
+              name="group"
+            />Рандомная картинка
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- task 6 -->
+    <div class="task">
+      <p>Задание 6</p>
+      <div class="content">
+        <p>Сдвигать блок влево при наведении на него курсором</p>
+        <div class="movingBlock">НАЖМИ НА МЕНЯ</div>
+      </div>
+    </div>
+
+    <!-- task 7 -->
+    <div class="task">
+      <p>Задание 7</p>
+      <div class="content">
+        <div class="sweets">
+          <button class="down">
+            <img src="/images/downArrow.png" alt="down" class="downButton" />
+          </button>
+          <p class="sweetHeader">Здесь сладости! (Нажми на меня)</p>
+          <div class="sweetContent">
+            <div class="listOfSweets">
+              <ul>
+                <li id="sweet1">Пончик</li>
+                <li id="sweet2">Тортик</li>
+                <li id="sweet3">Пирожок</li>
+                <li id="sweet4">Конфеты</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- task 8 -->
+    <div class="task">
+      <p>Задание 8</p>
+      <div class="content">
+        <div class="neverLet">
+          <img src="/images/rickroll.jpg" alt="rickroll" class="png" />
+          <p class="textInside">
+            Never gonna let you down <button class="party">PLAY / PAUSE</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+      <!-- task 9-10 -->
+      <div class="task">
+        <p>Задание 9-10</p>
+        <div class="content">
+          <h2>Оставьте отзыв об этих лабах!</h2>
+          <form action="" class="mainForm">
+            <div class="inputFields">
+              <div class="field">
+                <p>Фамилия:</p>
+                <input type="text" placeholder="Иванов" class="someInput" />
+              </div>
+              <div class="field">
+                <p>Имя:</p>
+                <input type="text" placeholder="Иван" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Отчество</p>
+                <input type="text" placeholder="Иванович" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Дата рождения:</p>
+                <input type="date" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Факультет</p>
+                <input type="text" placeholder="ФКТиПМ" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Кафедра</p>
+                <input type="text" placeholder="ПМИ" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Email</p>
+                <input type="email" placeholder="pro100chel@gmail.com" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Логин</p>
+                <input type="text" placeholder="pro100chel" class="someInput"/>
+              </div>
+              <div class="field">
+                <p>Пароль</p>
+                <input type="password" placeholder="thEm0$tstr0n&p@$sword" class="someInput"/>
+              </div>
+              <div class="field">
+                <p class="errorType"></p>
+                <input type="password" class="someInput" placeholder="Повторите пароль">
+              </div>
+              <div class="field">
+                <p>Отзыв:</p>
+                <textarea name="review" id="review" class="someInput"></textarea>
+              </div>
+              <div class="formButton">
+                <button id="sendButton">Отправить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="accordion.js"></script>
+  <script src="task1.js"></script>
+  <script src="task2.js"></script>
+  <script src="task3.js"></script>
+  <script src="task4.js"></script>
+  <script src="task5.js"></script>
+  <script src="task6.js"></script>
+  <script src="task7.js"></script>
+  <script src="task8.js"></script>
+  <script src="task9-10.js"></script>
+</html>
